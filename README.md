@@ -4,7 +4,7 @@ Aplikasi interaktif untuk melakukan konversi suhu.
 
 ## Capablility
 
-- Melakukan konversi suhu dari Celcius ke
+- Melakukan konversi suhu dari Celcius ke:
     - Fahrenheit
     - Kelvin
     - Reamur
@@ -13,7 +13,6 @@ Aplikasi interaktif untuk melakukan konversi suhu.
 
 - NodeJS LTS
 - IDE VSCode
-
 
 ## How to Run
 
