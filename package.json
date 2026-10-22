@@ -5,10 +5,18 @@
   "main": "index.mjs",
   "scripts": {
     "dev": "node --watch index.mjs",
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "lint": "eslint **/*.{js,mjs,cjs}",
+    "lint:fix": "eslint **/*.{js,mjs,cjs} --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0"
+  }
 }
